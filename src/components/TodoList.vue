@@ -18,6 +18,7 @@ export default {
   methods: {
     deleteTodo(todo) {
       const todoIndex = this.todos.indexOf(todo)
+      
       return this.todos.splice(todoIndex, 1)
     }  
   }
