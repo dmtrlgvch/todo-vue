@@ -5,8 +5,7 @@
       color="primary"
       dark
     >
-    
-    <h1 class="app__title">{{ title }}</h1>
+    <h1 class="app__title">{{ title }}</h1>   
     </v-app-bar>
 
     <v-main>
@@ -31,13 +30,15 @@
   export default {
     name: 'App',
     components: {
+      
       CreateTodo,
       TodoList
     },
 
     data(){
       return {
-        title: 'Todo App',
+        
+        title: 'Todo Vue App',
         todos: [
           {
             title: 'Todo A',
@@ -62,3 +63,4 @@
     }
   };
 </script>
+
